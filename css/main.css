@@ -1,0 +1,44 @@
+:root {
+  --main-color: #88bbd6;
+  --secondary-color: #d7cec7;
+}
+
+.section {
+  background-color: var(--secondary-color);
+}
+.nav,
+.footer,
+.follow,
+.contact,
+#search {
+  background-color: var(--main-color);
+}
+#home {
+  background-color: var(--secondary-color);
+}
+.btn-large {
+  background-color: #328cc1;
+}
+.btn-large:hover {
+  background-color: var(--main-color);
+}
+.slider .btn {
+  margin-top: 20px;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+.autocomplete-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+.section-contact h5 {
+  margin-bottom: 30px;
+}
